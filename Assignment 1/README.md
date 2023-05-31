@@ -8,4 +8,4 @@ What I have done for this Assignment:
 #in node1.py imports the required libraries and then created a webcam-pub function which gopen the camera gather the image data and then publish it to the Webcam
 -img topic
 #in node2.py I sunscribed to Webcam_img topic then publish a Webcam_cropped topic which has the iamge data 30% reduced by pixels
-#in node3.py I subscribed the Webcam_cropped topic then show that cropped image
+#in node3.py I subscribed the Webcam_cropped topic then show that cropped to image
