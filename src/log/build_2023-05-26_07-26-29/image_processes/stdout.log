@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/image_processes/image_processes.egg-info
+writing ../build/image_processes/image_processes.egg-info/PKG-INFO
+writing dependency_links to ../build/image_processes/image_processes.egg-info/dependency_links.txt
+writing entry points to ../build/image_processes/image_processes.egg-info/entry_points.txt
+writing requirements to ../build/image_processes/image_processes.egg-info/requires.txt
+writing top-level names to ../build/image_processes/image_processes.egg-info/top_level.txt
+writing manifest file '../build/image_processes/image_processes.egg-info/SOURCES.txt'
+reading manifest file '../build/image_processes/image_processes.egg-info/SOURCES.txt'
+writing manifest file '../build/image_processes/image_processes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/garima/first_ws/src/build/image_processes/build
+creating /home/garima/first_ws/src/build/image_processes/build/lib
+creating /home/garima/first_ws/src/build/image_processes/build/lib/image_processes
+copying image_processes/publisher_member_function.py -> /home/garima/first_ws/src/build/image_processes/build/lib/image_processes
+copying image_processes/__init__.py -> /home/garima/first_ws/src/build/image_processes/build/lib/image_processes
+running install
+running install_lib
+creating /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes
+copying /home/garima/first_ws/src/build/image_processes/build/lib/image_processes/publisher_member_function.py -> /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes
+copying /home/garima/first_ws/src/build/image_processes/build/lib/image_processes/__init__.py -> /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes
+byte-compiling /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+byte-compiling /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/garima/first_ws/src/install/image_processes/share
+creating /home/garima/first_ws/src/install/image_processes/share/ament_index
+creating /home/garima/first_ws/src/install/image_processes/share/ament_index/resource_index
+creating /home/garima/first_ws/src/install/image_processes/share/ament_index/resource_index/packages
+copying resource/image_processes -> /home/garima/first_ws/src/install/image_processes/share/ament_index/resource_index/packages
+creating /home/garima/first_ws/src/install/image_processes/share/image_processes
+copying package.xml -> /home/garima/first_ws/src/install/image_processes/share/image_processes
+running install_egg_info
+Copying ../build/image_processes/image_processes.egg-info to /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webcam_publisher script to /home/garima/first_ws/src/install/image_processes/lib/image_processes
+writing list of installed files to '/home/garima/first_ws/src/build/image_processes/install.log'

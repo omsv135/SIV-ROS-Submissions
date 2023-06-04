@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/garima/first_ws/install/robot_controller/lib/python3.10/site-packages",
+        "/home/garima/first_ws/install/image_processes/lib/python3.10/site-packages",
+        "/opt/ros/rolling/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/garima/first_ws/install/robot_controller/lib/python3.10/site-packages",
+        "/home/garima/first_ws/install/image_processes/lib/python3.10/site-packages",
+        "/opt/ros/rolling/lib/python3.10/site-packages"
+    ]
+}
