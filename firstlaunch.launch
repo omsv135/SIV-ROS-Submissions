@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="image_processes" type="node1.py" name="initial_node" output="screen"></node>
+    <node pkg="image_processes" type="node2.py" name="cropped_node" output="screen"></node>
+    <node pkg="image_processes" type="node3.py" name="final_node" output="screen"></node>
+</launch>
