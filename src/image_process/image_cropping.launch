@@ -1,0 +1,22 @@
+<launch>
+  <node
+    pkg="image_process"
+    type="pub1_node.py"
+    name="pub1_node"
+    output="screen"
+  />
+  
+  <node
+    pkg="image_process"
+    type="image_crop_node.py"
+    name="crop_node"
+    output="screen"
+  />
+  
+  <node
+    pkg="image_process"
+    type="sub1_node.py"
+    name="sub1_node"
+    output="screen"
+  />
+</launch>
