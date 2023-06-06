@@ -34,14 +34,4 @@ touch webcam_viewer.py
 chmod +x webcam_viewer.py			(To make the file executable)
 
 To run all the nodes:
-Terminal 1 -
-roscore
-	Terminal 2 -
-cd catkin_ws/src/image_processes/scripts
-python3 webcam_publisher.py
-	Terminal 3 -
-cd catkin_ws/src/image_processes/scripts
-python3 webcam_cropper.py
-	Terminal 4 -
-cd catkin_ws/src/image_processes/scripts
-python3 webcam_viewer.py
+roslaunch image_processes image_cropping.launch
