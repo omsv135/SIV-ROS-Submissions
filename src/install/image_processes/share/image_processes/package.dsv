@@ -1,0 +1,3 @@
+source;share/image_processes/hook/pythonpath.ps1
+source;share/image_processes/hook/pythonpath.dsv
+source;share/image_processes/hook/pythonpath.sh

@@ -1,0 +1,39 @@
+[0.420s] Invoking command in '/home/garima/first_ws/src/image_processes': PYTHONPATH=/home/garima/first_ws/src/build/image_processes/prefix_override:/home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processes build --build-base /home/garima/first_ws/src/build/image_processes/build install --record /home/garima/first_ws/src/build/image_processes/install.log --single-version-externally-managed
+[0.586s] running egg_info
+[0.586s] creating ../build/image_processes/image_processes.egg-info
+[0.587s] writing ../build/image_processes/image_processes.egg-info/PKG-INFO
+[0.587s] writing dependency_links to ../build/image_processes/image_processes.egg-info/dependency_links.txt
+[0.587s] writing entry points to ../build/image_processes/image_processes.egg-info/entry_points.txt
+[0.587s] writing requirements to ../build/image_processes/image_processes.egg-info/requires.txt
+[0.587s] writing top-level names to ../build/image_processes/image_processes.egg-info/top_level.txt
+[0.587s] writing manifest file '../build/image_processes/image_processes.egg-info/SOURCES.txt'
+[0.588s] reading manifest file '../build/image_processes/image_processes.egg-info/SOURCES.txt'
+[0.588s] writing manifest file '../build/image_processes/image_processes.egg-info/SOURCES.txt'
+[0.588s] running build
+[0.588s] running build_py
+[0.588s] creating /home/garima/first_ws/src/build/image_processes/build
+[0.588s] creating /home/garima/first_ws/src/build/image_processes/build/lib
+[0.589s] creating /home/garima/first_ws/src/build/image_processes/build/lib/image_processes
+[0.589s] copying image_processes/publisher_member_function.py -> /home/garima/first_ws/src/build/image_processes/build/lib/image_processes
+[0.589s] copying image_processes/__init__.py -> /home/garima/first_ws/src/build/image_processes/build/lib/image_processes
+[0.589s] running install
+[0.589s] running install_lib
+[0.589s] creating /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes
+[0.589s] copying /home/garima/first_ws/src/build/image_processes/build/lib/image_processes/publisher_member_function.py -> /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes
+[0.589s] copying /home/garima/first_ws/src/build/image_processes/build/lib/image_processes/__init__.py -> /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes
+[0.590s] byte-compiling /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.590s] byte-compiling /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes/__init__.py to __init__.cpython-310.pyc
+[0.590s] running install_data
+[0.591s] creating /home/garima/first_ws/src/install/image_processes/share
+[0.591s] creating /home/garima/first_ws/src/install/image_processes/share/ament_index
+[0.591s] creating /home/garima/first_ws/src/install/image_processes/share/ament_index/resource_index
+[0.591s] creating /home/garima/first_ws/src/install/image_processes/share/ament_index/resource_index/packages
+[0.591s] copying resource/image_processes -> /home/garima/first_ws/src/install/image_processes/share/ament_index/resource_index/packages
+[0.591s] creating /home/garima/first_ws/src/install/image_processes/share/image_processes
+[0.591s] copying package.xml -> /home/garima/first_ws/src/install/image_processes/share/image_processes
+[0.591s] running install_egg_info
+[0.592s] Copying ../build/image_processes/image_processes.egg-info to /home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages/image_processes-0.0.0-py3.10.egg-info
+[0.592s] running install_scripts
+[0.605s] Installing webcam_publisher script to /home/garima/first_ws/src/install/image_processes/lib/image_processes
+[0.606s] writing list of installed files to '/home/garima/first_ws/src/build/image_processes/install.log'
+[0.627s] Invoked command in '/home/garima/first_ws/src/image_processes' returned '0': PYTHONPATH=/home/garima/first_ws/src/build/image_processes/prefix_override:/home/garima/first_ws/src/install/image_processes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processes build --build-base /home/garima/first_ws/src/build/image_processes/build install --record /home/garima/first_ws/src/build/image_processes/install.log --single-version-externally-managed
