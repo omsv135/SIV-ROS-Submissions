@@ -1,0 +1,22 @@
+<launch>
+  
+  <node
+    pkg="image_processes"
+    type='node1.py'
+    name='node1'
+    output='screen'
+  />
+  <node
+    pkg='image_processes'
+    type='node2.py'
+    name='node2'
+    output='screen'
+  />
+  <node
+    pkg='image_processes'
+    type='node3.py'
+    name='node3'
+    output='screen'
+  />
+</launch>
+  
