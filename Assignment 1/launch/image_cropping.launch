@@ -1,0 +1,21 @@
+<launch>
+  <!-- node tag used to launch a node. here it will launch node1 which is webcam_publisher.-->
+  <!-- pkg stores package name. type stores name of node file -->
+  <node name="webcam_publisher" pkg="image_processes" type="node1.py">
+    
+    <param name="image_topic" value="webcam_image"/>
+  </node>
+
+  <!-- here it will launch the node2 which is image_cropper -->
+  <node name="image_cropper" pkg="image_processes" type="node2.py">
+     
+    <param name="input_image_topic" value="webcam_image"/>
+    <param name="output_image_topic" value="cropped_image"/>
+  </node>
+
+  <!-- now final node3 will launch which is image_viewer node -->
+  <node name="image_viewer" pkg="image_processes" type="node3.py">
+    
+    <param name="image_topic" value="cropped_image"/>
+  </node>
+</launch>
