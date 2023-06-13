@@ -1,0 +1,6 @@
+<launch>
+	
+	<node type="node1.py" name="node1" pkg = "image_processes"/>
+	<node type="node2.py" name="node2" pkg = "image_processes"/>
+	<node type="node3.py" name="node3" pkg = "image_processes"/>
+</launch>
